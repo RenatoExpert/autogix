@@ -1,0 +1,13 @@
+.objdiv {
+        width: 299px;
+}
+.objdiv input[type=range] {
+        width:39%;
+}
+.objdiv input[type=number] {
+        width:14%;
+}
+.objdiv button {
+        width:9%;
+}
+

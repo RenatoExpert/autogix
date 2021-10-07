@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Debugging Autogix
+		</title>
+		<link rel='stylesheet' href='styles/canvas.css'>
+		<link rel='stylesheet' href='styles/toolbar.css'>
+	</head>
+	<body>
+		<h1>
+			Debugger
+		</h1>
+		<p>show models</p>
+		<div class='objdiv'>
+			<h2>
+				A reservatory
+			</h2>
+			<p>
+			<label for='wid'>Width</label>
+			<label for='hei'>Height</label>
+			<label for='perc'>Percetual Filling</label>
+			<br>
+			<input type='number' id='wid' value='50'>
+			<input type='number' id='hei' value='50'>
+			<input type='range' id='perc' value='50%'>
+			<button onClick='add_cont()'>&#9654</button>
+			</p>
+			<canvas id='reservatory'></canvas>
+		</div>
+	<script src='scripts/heading.js'></script>
+	<script src='scripts/newcont.js'></script>
+	</body>
+</html>
+
