@@ -1,13 +1,33 @@
+body {
+	background-color: lightyellow;
+	padding: 30px;
+}
+div {
+	padding:10px;
+}
 .objdiv {
-        width: 299px;
+        width:900px;
 }
 .objdiv input[type=range] {
-        width:39%;
+        width:40%;
 }
 .objdiv input[type=number] {
-        width:14%;
+        width:15%;
 }
 .objdiv button {
-        width:9%;
+        width:10%;
 }
-
+#tool-bar {
+	padding-top: 150px;
+}
+#prop-div {
+	text-align: center;
+		padding: 20px;
+}
+#prop-div * {
+	min-width: 100px;
+	float: center;
+}
+#prop-div textarea {
+	min-height: 400px;
+}

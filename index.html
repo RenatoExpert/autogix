@@ -11,25 +11,38 @@
 		<h1>
 			Debugger
 		</h1>
-		<p>show models</p>
-		<div class='objdiv'>
-			<h2>
-				A reservatory
-			</h2>
-			<p>
-			<label for='wid'>Width</label>
-			<label for='hei'>Height</label>
-			<label for='perc'>Percetual Filling</label>
-			<br>
-			<input type='number' id='wid' value='50'>
-			<input type='number' id='hei' value='50'>
-			<input type='range' id='perc' value='50%'>
-			<button onClick='add_cont()'>&#9654</button>
-			</p>
-			<canvas id='reservatory'></canvas>
+		<div style='display:inline-flex'>
+			<div class='objdiv'>
+				<h2>
+					Main Screen
+				</h2>
+				<p>
+				<label for='wid'>Width</label>
+				<label for='hei'>Height</label>
+				<label for='perc'>Percetual Filling</label>
+				<br>
+				<input type='number' id='wid' value='50'>
+				<input type='number' id='hei' value='50'>
+				<input type='range' id='perc' value='50%'>
+				<button onClick='add_cont()'>增加</button>
+				<button onClick='clear_canvas()'>清除</button>
+				</p>
+				<canvas id='reservatory'></canvas>
+			</div>
+			<div id='tool-bar'>
+				<button onClick='make_tube()'>&#9998</button>
+			</div>
+			<div id='prop-div'>
+				<h2>
+					Reservatory List
+				</h2>
+				<textarea id='reser-prop' disabled>Ola Mundo</textarea>
+			</div>
 		</div>
 	<script src='scripts/heading.js'></script>
 	<script src='scripts/newcont.js'></script>
+	<script src='scripts/cont-logs.js'></script>
+	<script src='scripts/draw-tubes.js'></script>
 	</body>
 </html>
 
